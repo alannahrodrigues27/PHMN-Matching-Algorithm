@@ -1,1 +1,1 @@
-This matching algorithm was developed and is to be used for the Pre-Health Mentor Network mentors and mentees forms. This repository contains the code for the algorithm, sample input and output files. As of 2024, the code is written in C++.
+This matching algorithm was developed and is to be used by Pre-Health Mentor Network at UIC to match mentors and mentees. This repository contains the code for the algorithm, sample input and output files. As of 2024, the code is written in C++.
