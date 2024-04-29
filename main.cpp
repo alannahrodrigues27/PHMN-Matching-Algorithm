@@ -526,9 +526,9 @@ int main() {
     vector <Mentee> mentees;
     map <string, Matches> matches;
     vector <string> lines;
-    readInFile("mentorsSpring2024.csv", lines);
+    readInFile("mentorsSpring2024.csv", lines); // Update filename
     fillMentors(lines, mentors);
-    readInFile("menteesSpring2024.csv", lines);
+    readInFile("menteesSpring2024.csv", lines); // Update filename
     fillMentees(lines, mentees);
     fillMatches(matches, mentors, mentees);
 
@@ -554,11 +554,11 @@ int main() {
 
     cout << "matches" <<  endl;
     cout << matches.size() << endl;
-    for (auto match: matches) {
-        printMatch(match.first, match.second);
-    }
+    //for (auto match: matches) {
+    //    printMatch(match.first, match.second);
+    //}
 
-    outputFile("scores24Spring.csv", "reasons24Fall.csv", matches, mentors, mentees);
+    outputFile("scores24Spring.csv", "reasons24Fall.csv", matches, mentors, mentees); // Update filenames
 
     return 0;
 }
